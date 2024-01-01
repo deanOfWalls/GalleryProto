@@ -1,0 +1,21 @@
+/* Style for the thumbnail container */
+.thumbnail-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #f9f9f9;
+    padding: 5px;
+    width: 100%; /* Expand to the width of the browser window */
+    max-height: 150px; /* Set a fixed height for the container */
+    border: 2px solid #ccc;
+}
+
+/* Specific style for each thumbnail */
+.thumbnail-container img {
+    width: 150px; /* Set the thumbnail size to 150x150 pixels */
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    margin-right: 10px; /* Add margin to separate thumbnails */
+    display: inline-block; /* Display thumbnails inline */
+}

@@ -2,15 +2,11 @@
 <html>
 <head>
     <title>Image Gallery</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
 </head>
 <body>
-<div id="selectedImageContainer" class="selected-image-container">
-    <img id="selectedImage" class="selected-image" src="" alt="Selected Image">
-</div>
-<div id="thumbnailContainer" class="thumbnail-container">
-    <input type="file" id="fileInput" multiple onchange="showImages(this.files)">
-</div>
+<input type="file" id="fileInput" multiple onchange="showImages(this.files)">
+<div id="gallery" class="thumbnail-container"></div>
 
 <script src="script.js"></script>
 </body>

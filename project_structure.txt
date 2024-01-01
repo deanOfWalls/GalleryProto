@@ -1,0 +1,68 @@
+.
+├── .attach_pid123424
+├── Dockerfile
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── project_structure.txt
+├── README.md
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── deanofwalls
+│   │   │           └── GALLERY_PROTO
+│   │   │               ├── config
+│   │   │               │   └── LoggingConfig.java
+│   │   │               ├── controller
+│   │   │               │   ├── GalleryController.java
+│   │   │               │   └── ImageController.java
+│   │   │               ├── MainApplication.java
+│   │   │               ├── model
+│   │   │               ├── repository
+│   │   │               └── service
+│   │   └── resources
+│   │       ├── application.properties
+│   │       ├── static
+│   │       │   ├── hamu2.png
+│   │       │   ├── hamu3.png
+│   │       │   ├── hamu4.png
+│   │       │   ├── hamu5.png
+│   │       │   ├── hamu.png
+│   │       │   ├── script.js
+│   │       │   └── style.css
+│   │       └── templates
+│   │           └── gallery.html
+│   └── test
+│       └── java
+│           └── com
+│               └── deanofwalls
+│                   └── GALLERY_PROTO
+│                       └── ApplicationTests.java
+└── target
+    ├── classes
+    │   ├── application.properties
+    │   ├── com
+    │   │   └── deanofwalls
+    │   │       ├── CRUD_SQL_DEMO
+    │   │       │   └── config
+    │   │       │       └── LoggingConfig.class
+    │   │       └── GALLERY_PROTO
+    │   │           ├── controller
+    │   │           │   ├── GalleryController.class
+    │   │           │   └── ImageController.class
+    │   │           └── MainApplication.class
+    │   ├── static
+    │   │   ├── hamu2.png
+    │   │   ├── hamu3.png
+    │   │   ├── hamu4.png
+    │   │   ├── hamu5.png
+    │   │   ├── hamu.png
+    │   │   ├── script.js
+    │   │   └── style.css
+    │   └── templates
+    │       └── gallery.html
+    └── generated-sources
+        └── annotations
+
+32 directories, 34 files

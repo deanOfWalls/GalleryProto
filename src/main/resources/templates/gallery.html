@@ -7,28 +7,26 @@
 <body>
 
 <div style="text-align:center">
-    <h2>Local Image Gallery</h2>
-    <p>Select images below:</p>
+    <h2 style="color: white;">Local Image Gallery</h2>
+    <p style="color: white;">Select images below:</p>
     <input type="file" id="fileInput" multiple>
 </div>
 
 <!-- The image container -->
-<div id="otembImages" class="row"></div>
+<div id="imageGallery" class="row"></div>
 
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <!-- The placeholder for the description label: -->
-    <p class="description"></p>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
+<div id="overlay" style="background-color: black;">
+    <h3 style="color: white; text-align: center;">Select a decoy image</h3>
+    <div id="decoyImages" class="row">
+        <!-- Decoy images from resources/static -->
+        <img src="images/decoy1.png" alt="Decoy 1">
+        <img src="images/decoy2.png" alt="Decoy 2">
+        <img src="images/decoy3.png" alt="Decoy 3">
+        <img src="images/decoy4.png" alt="Decoy 4">
+        <!-- Add more decoy images here -->
+    </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="blueimp-gallery.js"></script>
 <script src="script.js"></script>
 
 </body>

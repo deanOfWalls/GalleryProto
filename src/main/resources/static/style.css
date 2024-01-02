@@ -1,21 +1,38 @@
 /* Style for the thumbnail container */
-.thumbnail-container {
-    overflow-x: auto;
-    white-space: nowrap;
-    background-color: #f9f9f9;
-    padding: 5px;
-    width: 100%; /* Expand to the width of the browser window */
-    max-height: 150px; /* Set a fixed height for the container */
-    border: 2px solid #ccc;
+#otembImages {
+    text-align: center;
 }
 
-/* Specific style for each thumbnail */
-.thumbnail-container img {
+/* Style for the thumbnails */
+.thumbnail {
+    opacity: 0.8;
+    cursor: pointer;
+    margin: 5px;
     width: 150px; /* Set the thumbnail size to 150x150 pixels */
     height: 150px;
     object-fit: cover;
-    cursor: pointer;
-    border: 1px solid #ddd;
-    margin-right: 10px; /* Add margin to separate thumbnails */
-    display: inline-block; /* Display thumbnails inline */
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+/* Styles for the blueimp gallery */
+.blueimp-gallery > .description {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    color: #fff;
+    display: none;
+}
+
+.blueimp-gallery-controls > .description {
+    display: block;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }

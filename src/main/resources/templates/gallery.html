@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Image Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<!-- Input for selecting images -->
-<input type="file" id="fileInput" multiple>
 
-<!-- Container for the thumbnails -->
-<div id="thumbnailContainer"></div>
+<div style="text-align:center">
+    <h2>Local Image Gallery</h2>
+    <p>Select images below:</p>
+    <input type="file" id="fileInput" multiple>
+</div>
 
-<!-- Container for the selected image -->
-<div id="selectedImageContainer"></div>
+<!-- The image container -->
+<div id="otembImages" class="row"></div>
 
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <!-- The placeholder for the description label: -->
+    <p class="description"></p>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="blueimp-gallery.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
